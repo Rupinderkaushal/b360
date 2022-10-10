@@ -1,0 +1,25 @@
+.month_wise_trend_wrapper{
+    height:90vh;
+}
+.sidebar_links_content{
+    width: 15%;
+    height: 100%;
+}
+
+@media (max-width:519px){
+   .sidebar_links_content{
+    display: none;
+   }
+   .bar_div{
+    width: 65%;
+   }
+}
+
+@media (min-width:520px) and (max-width:849px){
+    .sidebar_links_content{
+        width: 25%;
+       }
+       .bar_div{
+        width: 75%;
+       }
+}
